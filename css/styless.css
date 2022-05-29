@@ -25,6 +25,23 @@ body {
     text-decoration: none;
     color: white;
     padding: 0 3%;
+    transition: all 1s;
+}
+
+
+/* animaciones */
+.botonmenu:hover{
+
+   color: #f6b221;
+   
+}
+.btn:hover{
+    background-color: black;
+    color: #f6b221;
+}
+.menufooter:hover{
+    color: #f6b221;
+
 }
 
 .navBar {
@@ -96,7 +113,7 @@ body {
 }
 
 .footer {
-    padding: 10px;
+    padding: 1rem;
     background-color: black;
     color: azure;
 }
@@ -108,6 +125,8 @@ body {
 .menufooter {
     color: white;
     text-decoration: none;
+    transition: all .5s;
+ 
 }
 
 .bannerContainer {
@@ -178,6 +197,7 @@ body {
     font-size: 15px;
     font-family: lato;
     font-weight: bold;
+    transition:all 0.5s;
 }
 
 /* Seccion de Nosotros en ingles Us */
