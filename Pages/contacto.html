@@ -10,58 +10,77 @@
 </head>
 
 <body>
-    <header>
-        <img src="../img/Logotipo-corporativo-negativo2.png" width="220" height="40" alt="">
-        <nav>
+    <header class="navBar">
 
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../Pages/propiedades.html">Propiedaes</a></li>
-            <li><a href="../Pages/servicios.html">Servicios</a></li>
-            <li><a href="../Pages/contacto.html">Contacto</a></li>
-            <li><a href="../Pages/nosotros.html">Nosotros</a></li>
+        <img class="logo" src="../img/logo negro.png" width="300" height="" alt="">
+        <div class="menuBurger">
+            <img class="menuIcon" src="../img/menu.png" width="300" height="" alt="">
+        </div>
+        <nav class="menu">
+            <!-- Preguntar aplicar cambio de color al dar click en los botones -->
+            <div class="botonmenu"><a class="botonmenu" href="../index.html">Home</a></div>
+            <div class="botonmenu"><a class="botonmenu" href="../Pages/propiedades.html">Propiedaes</a></div>
+            <div class="botonmenu"><a class="botonmenu" href="../Pages/servicios.html">Servicios</a></div>
+            <div class="botonmenu"><a class="botonmenu" href="../Pages/contacto.html">Contacto</a></div>
+            <div class="botonmenu"><a class="botonmenu" href="../Pages/nosotros.html">Nosotros</a></div>
         </nav>
     </header>
-    
+
     <main>
-        <h1>Ponte en Contactos con Nostros</h1>
-        <img src="../img/mamparas-de-oficina-principal.jpg"width="520" height="280" alt="">
-        <form action="" method="get">
-            <label for="Nombre">Nombres</label>
-            <input type="text" placeholder="Nombre">
-            <label for="Apellido">Apellidos</label>
-            <input type="text" placeholder="Apellido">
-            <label for="E-mail">Correo Electronico</label>
-            <input type="email" name="" placeholder="E-mail" id="">
 
-            <label for="motivo">Motivo de contacto</label>
-            <select name="Motivo" id="Motivo de Contacto">
-                <option value="Compra">Compra</option>
-                <option value="Venta">Venta</option>
-                <option value="Informacion">Informacion</option>
-            </select>
-            <textarea name="" id="" cols="19" rows="4"></textarea>
-            <label for="recibirnoticias">Recibir Noticias</label>
-            <input type="checkbox" name="recibirnoticias" id="recibir noticias">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar">
+        <div class="contactForm">
+            <div class="contactImg" alt=""></div>
 
-        </form>
+            <form class="formContainer" action="" method="get">
+                <h1 class="title">Ponte en Contactos con nosotros</h1>
+                <div class="inputField">
+                    <label for="Nombre">Nombres</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="inputField">
+                    <label for="Apellido">Apellidos</label>
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="inputField">
+                    <label for="E-mail">Correo Electronico</label>
+                    <input type="email" name="" placeholder="E-mail" id="">
+                </div>
+                <div class="inputField">
+                    <label for="motivo">Motivo de contacto</label>
+                    <select name="Motivo" id="Motivo de Contacto">
+                        <option value="Compra">Compra</option>
+                        <option value="Venta">Venta</option>
+                        <option value="Informacion">Informacion</option>
+                    </select>
+                    <textarea name="" id="" cols="19" rows="4"></textarea>
+                </div>
+                <div class="inputField">
+                    <label for="recibirnoticias">Recibir Noticias</label>
+                    <input type="checkbox" name="recibirnoticias" id="recibir noticias">
+                </div>
+
+                <input class="btn" type="submit" value="Enviar">
+
+            </form>
+
+        </div>
 
     </main>
 
-        <footer>
+    <footer class="footer">
 
-            <h3>Menu</h3>
-            <nav>
-                <a href="../index.html">Home</a></li>
-            <a href="../Pages/propiedades.html">Propiedaes</a>
-            <a href="../Pages/servicios.html">Servicios</a>
-            <a href="../Pages/contacto.html">Contacto</a>
-            <a href="../Pages/nosotros.html">Nosotros</a>
-            </nav>
+        <img class="logobanner2" src="../img/logo negro.png" width="300" height="" alt="">
+        <h3>Menu</h3>
+        <nav>
+            <a class="menufooter" href="../index.html">Home</a>
+            <a class="menufooter" href="../Pages/propiedades.html">Propiedaes</a>
+            <a class="menufooter" href="../Pages/servicios.html">Servicios</a>
+            <a class="menufooter" href="../Pages/contacto.html">Contacto</a>
+            <a class="menufooter" href="./Pages/nosotros.html">Nosotros</a>
+        </nav>
 
-        </footer>
-    
+    </footer>
+
 </body>
 
 </html>

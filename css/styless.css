@@ -51,12 +51,13 @@ body {
     padding: 10px
 }
 
-.titulohome {
+.title {
     margin: 0 0 15px 0;
     font-family: raleway;
 }
 
 .videoCard {
+    font-family: raleway;
     background-color: #000000a8;
     border-radius: 0;
     padding: 20px;
@@ -118,7 +119,7 @@ body {
     grid-column: 1 / 3;
     grid-row: 1 / 1;
     display: flex;
-    background-image: url("../img/Imagen Ciudad.jpg");
+    background-image: url("../img/edificio.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -155,7 +156,6 @@ body {
 .card {
     background-color: white;
     padding: 15px;
-    margin: 20px 20px;
     flex: 1;
     max-width: 400px;
 }
@@ -180,9 +180,195 @@ body {
     font-weight: bold;
 }
 
+/* Seccion de Nosotros en ingles Us */
 
+.BodyNosotros {
+
+    background-color: rgb(218, 216, 216);
+}
+
+.ContainerNosotros {
+
+    font-family: raleway;
+    margin: auto 10%;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 1fr;
+    /* max-width: 100%; */
+    /* justify-content: center;
+    padding: auto; */
+
+}
+
+.TitleNosotros {
+    margin: 0px;
+    font-family: raleway;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.InfoNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    grid-column: 1 / 2;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.imgNosotros {
+
+    padding: auto;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    object-fit: contain;
+}
+
+.bodyText {
+
+    display: flex;
+}
+
+
+/* Seccion de Propiedades  */
+
+
+.bodymenu .TitlePropiedades {
+    padding: 2%;
+    margin: 0px;
+    font-family: raleway;
+    width: 100%;
+    text-align: center;
+
+}
+
+/* Seccion Servicios en ingles services */
+
+.ServicesContainer {
+    font-family: raleway;
+    padding: 2%;
+}
+
+
+.servicestitle {
+
+    margin: 0px;
+    font-family: raleway;
+    width: 100%;
+    text-align: center;
+}
+
+.servicesAssetmanagement {
+    background-color: white;
+    padding: 1rem;
+}
+
+.servicebrokerage {
+    background-color: white;
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.servicebrokerage h2 {
+    margin-bottom: 0px;
+}
+
+.servicebrokerage p {
+    line-height: 1.6;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.serviceInfo {
+    padding: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.serviceImage {
+    max-width: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.marginMedProp {
+    margin: 20px 20px;
+}
+
+.marginProp {
+    margin: 20px 10px;
+}
+
+
+/* Contacto */
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactImg {
+    flex: 1;
+    width: 100%;
+    background-image: url("../img/edificio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.formContainer {
+    flex: 3;
+    font-family: raleway;
+    max-width: 60%;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.inputField label {
+    margin-bottom: 10px;
+}
+
+
+.inputField input {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+}
+
+.inputField select {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+    margin-bottom: 15px;
+}
+
+.inputField textarea {
+    padding: 12px 12px;
+    border: 1px solid #999999;
+
+    
+}
+/* Seccion de Queries */
 
 @media (max-width: 780px) {
+
+    /* No se aun como desplegar el menu, de momento se oculta al llegar a version mobile */
     .menuBurger {
         width: 35px;
         height: 35px;
@@ -216,4 +402,26 @@ body {
         text-align: center;
     }
 
+    .serviceImage {
+        max-width: 100%;
+    }
+
+    .card {
+        margin: 20px 0px;
+        max-width: 100%;
+    }
+
+    .contactImg {
+        min-height: 150px;
+    }
+
+    .formContainer {
+        max-width: 100%;
+    }
+
+    .contactForm {
+        flex-direction: column;
+
+    }
 }
+
