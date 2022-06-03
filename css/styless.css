@@ -30,16 +30,18 @@ body {
 
 
 /* animaciones */
-.botonmenu:hover{
+.botonmenu:hover {
 
-   color: #f6b221;
-   
+    color: #f6b221;
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: black;
     color: #f6b221;
 }
-.menufooter:hover{
+
+.menufooter:hover {
     color: #f6b221;
 
 }
@@ -126,7 +128,7 @@ body {
     color: white;
     text-decoration: none;
     transition: all .5s;
- 
+
 }
 
 .bannerContainer {
@@ -172,24 +174,24 @@ body {
 
 
 
-.card {
+.cardMain {
     background-color: white;
     padding: 15px;
     flex: 1;
     max-width: 400px;
 }
 
-.card .cardImg {
+.cardMain .cardImg {
     width: 100%;
 }
 
-.card .bodyText {
+.cardMain .bodyText {
     font-size: 15px;
     font-family: lato;
     line-height: 1.6;
 }
 
-.btn {
+.btnMain {
     width: 100%;
     background-color: #f6b221;
     border: none;
@@ -197,7 +199,7 @@ body {
     font-size: 15px;
     font-family: lato;
     font-weight: bold;
-    transition:all 0.5s;
+    transition: all 0.5s;
 }
 
 /* Seccion de Nosotros en ingles Us */
@@ -382,8 +384,9 @@ body {
     padding: 12px 12px;
     border: 1px solid #999999;
 
-    
+
 }
+
 /* Seccion de Queries */
 
 @media (max-width: 780px) {
@@ -444,4 +447,3 @@ body {
 
     }
 }
-
